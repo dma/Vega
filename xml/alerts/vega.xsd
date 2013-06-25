@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" attributeFormDefault="unqualified">
+  <xs:simpleType name="ClassType">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="Access Validation Error"/>
+      <xs:enumeration value="Boundary Condition Error"/>
+      <xs:enumeration value="Configuration Error"/>
+      <xs:enumeration value="Configuration"/>
+      <xs:enumeration value="Environment"/>
+      <xs:enumeration value="Error Message"/>
+      <xs:enumeration value="Example"/>
+      <xs:enumeration value="Information"/>
+      <xs:enumeration value="Input Validation Error"/>
+      <xs:enumeration value="Personally Identifiable Information (PII)"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:simpleType name="SeverityType">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="High"/>
+      <xs:enumeration value="Medium"/>
+      <xs:enumeration value="Low"/>
+      <xs:enumeration value="Info"/>
+   </xs:restriction>
+  </xs:simpleType>
+
+  <xs:complexType name="UrlType">
+    <xs:simpleContent>
+      <xs:extension base="xs:string">
+        <xs:attribute name="address" type="xs:string"/>
+      </xs:extension>
+    </xs:simpleContent>
+  </xs:complexType>
+
+  <xs:complexType name="UrlListType">
+    <xs:sequence maxOccurs="unbounded">
+      <xs:element name="url" type="UrlType"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:element name="alert">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="title" type="xs:string"/>
+        <xs:element name="class" type="ClassType"/>
+        <xs:element name="severity" type="SeverityType"/>
+        <xs:sequence minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="impact" type="xs:string"/>
+        </xs:sequence>
+        <xs:sequence minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="remediation" type="xs:string"/>
+        </xs:sequence>
+        <xs:element name="discussion" type="xs:string" minOccurs="0"/>
+        <xs:element name="external" type="UrlListType" minOccurs="0"/>
+        <xs:element name="references" type="UrlListType" minOccurs="0"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
