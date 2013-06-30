@@ -43,5 +43,6 @@
 		<url address="http://msdn.microsoft.com/en-us/library/ff648339.aspx">How To: Protect from SQL Injection in ASP.NET (MSDN)</url>
 		<url address="http://blogs.msdn.com/b/raulga/archive/2007/01/04/dynamic-sql-sql-injection.aspx">Dynamic SQL and SQL Injection (Raul Garcia's blog)</url>
 		<url address="https://www.owasp.org/index.php/SQL_Injection_Prevention_Cheat_Sheet">SQL Injection Prevention Cheat Sheet (OWASP)</url>
+		<url address="http://projects.webappsec.org/SQL-Injection">WASC-19: SQL Injection (WASC)</url>
 	</references>
 </alert>

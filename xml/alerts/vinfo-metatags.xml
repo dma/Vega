@@ -14,4 +14,8 @@
 	<discussion>
 		Vega has detected meta tags that may reveal sensitive information or warrant closer examination. These tags could include information such as platform or configuration characteristics. Interesting meta tags include those that contain: "linux", "visual", "microsoft".
 	</discussion>
+
+	<references>
+		<url address="http://projects.webappsec.org/Information-Leakage">WASC-13: Information Leakage (WASC)</url>
+	</references>
 </alert>

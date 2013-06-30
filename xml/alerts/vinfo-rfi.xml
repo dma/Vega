@@ -14,5 +14,6 @@
 
 	<references>
 		<url address="http://en.wikipedia.org/wiki/Remote_file_inclusion">Remote File Inclusion (Wikipedia)</url>
+		<url address="http://projects.webappsec.org/Remote-File-Inclusion">WASC-05: Remote File Inclusion (WASC)</url>
 	</references>
 </alert>

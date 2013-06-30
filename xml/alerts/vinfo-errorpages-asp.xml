@@ -16,5 +16,6 @@
 
 	<references>
 		<url address="http://msdn.microsoft.com/en-us/library/994a1482(v=vs.100).aspx">MSDN - How to: Display Safe Error Messages</url>
+		<url address="http://projects.webappsec.org/Information-Leakage">WASC-13: Information Leakage (WASC)</url>
 	</references>
 </alert>

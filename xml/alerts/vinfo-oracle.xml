@@ -11,4 +11,8 @@
 	<discussion>
 		Vega has detected that this resource is tagged with a string indicating that it may have been created by Oracle Application Server.
 	</discussion>
+
+	<references>
+		<url address="http://projects.webappsec.org/Fingerprinting">WASC-45: Fingerprinting (WASC)</url>
+	</references>
 </alert>

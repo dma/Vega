@@ -17,6 +17,6 @@
 	<references>
 		<url address="https://www.owasp.org/index.php/Securing_tomcat">Securing Tomcat (OWASP)</url>
 		<url address="https://www.owasp.org/index.php/Information_Leakage">Information Leakage (OWASP)</url>
-		<url address="http://projects.webappsec.org/w/page/13246936/Information-Leakage">Information Leakage (WASC)</url>
+		<url address="http://projects.webappsec.org/Information-Leakage">WASC-13: Information Leakage (WASC)</url>
 	</references>
 </alert>

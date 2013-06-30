@@ -20,5 +20,6 @@
 		<url address="https://www.owasp.org/index.php/Command_Injection">Command Injection (OWASP)</url>
 		<url address="https://www.owasp.org/index.php/Reviewing_Code_for_OS_Injection">Reviewing Code for OS Injection (OWASP)</url>
 		<url address="http://en.wikipedia.org/wiki/Code_injection#Shell_injection">Shell Injection (Wikipedia)</url>
+		<url address="http://projects.webappsec.org/OS-Commanding">WASC-31: OS Commanding (WASC)</url>
 	</references>
 </alert>

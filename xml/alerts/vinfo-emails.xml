@@ -20,5 +20,6 @@
 	<references>
 		<url address="http://en.wikipedia.org/wiki/E-mail_address_harvesting">E-mail address harvesting (Wikipedia)</url>
 		<url address="http://techblog.tilllate.com/2008/07/20/ten-methods-to-obfuscate-e-mail-addresses-compared/">Nine ways to obfuscate your e-mail address (Tilllate TechBlog)</url>
+		<url address="http://projects.webappsec.org/Information-Leakage">WASC-13: Information Leakage (WASC)</url>
 	</references>
 </alert>

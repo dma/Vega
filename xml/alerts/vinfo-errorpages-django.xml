@@ -25,6 +25,6 @@
 		<url address="http://www.djangobook.com/en/2.0/chapter20/">Chapter 20: Security (Django Book)</url>
 		<url address="http://docs.djangoproject.com/en/dev/ref/settings/">Django Settings (Django documentation)</url>
 		<url address="https://www.owasp.org/index.php/Information_Leakage">Information Leakage (OWASP)</url>
-		<url address="http://projects.webappsec.org/w/page/13246936/Information-Leakage">Information Leakage (WASC)</url>
+		<url address="http://projects.webappsec.org/Information-Leakage">WASC-13: Information Leakage (WASC)</url>
 	</references>
 </alert>

@@ -14,4 +14,8 @@
 	<discussion>
 		Vega has determined that a HTML tag in the target page has an attribute (such as src, href, or value) that is a URI supplied by the scanner. There are a variety of security implications, depending on the tag. The most serious consequences include phishing attacks or possible cross-domain risks that can occur if the browser of the target user automatically fetches malicious content from these links.
 	</discussion>
+
+	<references>
+		<url address="http://projects.webappsec.org/Improper-Input-Handling">WASC-20: Improper Input Handling (WASC)</url>
+	</references>
 </alert>

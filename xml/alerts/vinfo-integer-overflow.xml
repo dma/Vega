@@ -22,5 +22,6 @@
 	<references>
 		<url address="https://www.owasp.org/index.php/Integer_overflow">Integer overflow (OWASP)</url>
 		<url address="http://en.wikipedia.org/wiki/Integer_overflow">Integer overflow (Wikipedia)</url>
+		<url address="http://projects.webappsec.org/Integer-Overflows">WASC-03: Integer Overflows (WASC)</url>
 	</references>
 </alert>

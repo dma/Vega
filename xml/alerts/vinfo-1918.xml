@@ -15,6 +15,6 @@
 	</discussion>
 
 	<references>
-		<url address="http://projects.webappsec.org/w/page/13246936/Information-Leakage">WASC: Information Leakage</url>
+		<url address="http://projects.webappsec.org/Information-Leakage">WASC-13: Information Leakage (WASC)</url>
 	</references>
 </alert>

@@ -18,5 +18,9 @@
 		<url address="http://en.wikipedia.org/wiki/HTTP_header_injection">HTTP Header Injection (Wikipedia)</url>
 		<url address="https://www.owasp.org/index.php/HTTP_Response_Splitting">HTTP Response Splitting</url>
 		<url address="https://www.owasp.org/index.php/HTTP_Request_Smuggling">HTTP Request Smuggling</url>
+		<url address="http://projects.webappsec.org/HTTP-Request-Splitting">WASC-24: HTTP Request Splitting (WASC)</url>
+		<url address="http://projects.webappsec.org/HTTP-Response-Splitting">WASC-25: HTTP Response Splitting (WASC)</url>
+		<url address="http://projects.webappsec.org/HTTP-Request-Smuggling">WASC-26: HTTP Request Smuggling (WASC)</url>
+		<url address="http://projects.webappsec.org/HTTP-Response-Smuggling">WASC-27: HTTP Response Smuggling (WASC)</url>
 	</references>
 </alert>

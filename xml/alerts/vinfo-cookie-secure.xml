@@ -14,5 +14,6 @@
 
 	<references>
 		<url address="https://www.owasp.org/index.php/SecureFlag">SecureFlag OWASP Reference</url>
+		<url address="http://projects.webappsec.org/Insufficient-Transport-Layer-Protection">WASC-04: Insufficient Transport Layer Protection (WASC)</url>
 	</references>
 </alert>

@@ -24,5 +24,6 @@
 		<url address="http://en.wikipedia.org/wiki/Directory_traversal">Directory Traversal (Wikipedia)</url>
 		<url address="https://www.owasp.org/index.php/Path_Traversal">Path Traversal (OWASP)</url>
 		<url address="https://www.owasp.org/index.php/File_System#Path_traversal">Avoiding Path Traversal (OWASP)</url>
+		<url address="http://projects.webappsec.org/Path-Traversal">WASC-33: Path Traversal (WASC)</url>
 	</references>
 </alert>

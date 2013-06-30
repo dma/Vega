@@ -23,6 +23,6 @@
 	<references>
 		<url address="https://www.owasp.org/index.php/Interpreter_Injection#XML_Injection">XML Injection (OWASP)</url>
 		<url address="https://www.owasp.org/index.php/Testing_for_XML_Injection">Testing for XML Injection (OWASP)</url>
-		<url address="http://projects.webappsec.org/w/page/13247004/XML-Injection">XML Injection (WASC)</url>
+		<url address="http://projects.webappsec.org/XML-Injection">WASC-23: XML Injection (WASC)</url>
 	</references>
 </alert>

@@ -14,5 +14,6 @@
 
 	<references>
 		<url address="http://www.merriampark.com/anatomycc.htm">Anatomy of a Credit Card Number</url>
+		<url address="http://projects.webappsec.org/Insufficient-Data-Protection">WASC-50: Insufficient Data Protection (WASC)</url>
 	</references>
 </alert>

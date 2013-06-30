@@ -24,6 +24,7 @@
 
 	<references>
 		<url address="http://en.wikipedia.org/wiki/Uncontrolled_format_string">Uncontrolled format string (Wikipedia)</url>
+		<url address="http://projects.webappsec.org/Format-String">WASC-06: Format String (WASC)</url>
 	</references>
 </alert>
 

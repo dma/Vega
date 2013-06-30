@@ -15,5 +15,6 @@
 
 	<references>
 		<url address="http://blogs.msdn.com/b/ieinternals/archive/2011/01/31/controlling-the-internet-explorer-xss-filter-with-the-x-xss-protection-http-header.aspx">Controlling the XSS Filter</url>
+		<url address="http://projects.webappsec.org/Cross-Site-Scripting">WASC-08: Cross-Site Scripting (WASC)</url>
 	</references>
 </alert>

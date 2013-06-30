@@ -23,6 +23,6 @@
 		<url address="http://en.wikipedia.org/wiki/Cross-site_scripting">Cross-Site Scripting (Wikipedia)</url>
 		<url address="https://www.owasp.org/index.php/XSS">Cross-Site Scripting (OWASP)</url>
 		<url address="https://www.owasp.org/index.php/XSS_(Cross_Site_Scripting)_Prevention_Cheat_Sheet">XSS Prevention Cheat Sheet</url>
-		<url address="http://projects.webappsec.org/w/page/13246920/Cross-Site-Scripting">Cross-Site Scripting (WASC)</url>
+		<url address="http://projects.webappsec.org/Cross-Site-Scripting">WASC-08: Cross-Site Scripting (WASC)</url>
 	</references>
 </alert>

@@ -8,4 +8,8 @@
 
 	<remediation>The developer should investigate the error to determine its nature and ensure that it does not represent a vulnerability.</remediation>
 	<remediation>Ensure that the application is running in a production environment.</remediation>
+
+	<references>
+		<url address="http://projects.webappsec.org/Information-Leakage">WASC-13: Information Leakage (WASC)</url>
+	</references>
 </alert>

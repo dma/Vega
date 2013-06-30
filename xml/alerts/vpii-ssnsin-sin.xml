@@ -13,5 +13,6 @@
 
 	<references>
 		<url address="http://en.wikipedia.org/wiki/Social_Insurance_Number">Social Insurance Number (Wikipedia)</url>
+		<url address="http://projects.webappsec.org/Insufficient-Data-Protection">WASC-50: Insufficient Data Protection (WASC)</url>
 	</references>
 </alert>

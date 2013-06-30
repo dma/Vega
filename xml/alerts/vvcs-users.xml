@@ -13,4 +13,8 @@
 	<discussion>
 		Version control systems (VCSs) are tools for tracking changes to files over time. Some of these systems tag each file with a string indicating the current revision, the username, the last change, and a timestamp. This information may be sensitive and care should be taken that it not be inadvertently exposed on production servers exposed to potentially hostile clients.
 	</discussion>
+
+	<references>
+		<url address="http://projects.webappsec.org/Fingerprinting">WASC-45: Fingerprinting (WASC)</url>
+	</references>
 </alert>

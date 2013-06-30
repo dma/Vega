@@ -18,5 +18,6 @@
 		<url address="http://cwe.mitre.org/data/definitions/651.html">CWE-651: Information Exposure through WSDL</url>
 		<url address="http://www.w3.org/TR/wsdl">WSDL (W3C)</url>
 		<url address="http://en.wikipedia.org/wiki/Web_Services_Description_Language">Web Services Description Language</url>
+		<url address="http://projects.webappsec.org/Fingerprinting">WASC-45: Fingerprinting (WASC)</url>
 	</references>
 </alert>
