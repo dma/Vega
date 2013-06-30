@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <alert>
-<title>HTTP Script Include in HTTPS Website</title>
-	
+	<title>HTTP Script Include in HTTPS Website</title>
 	<class>Environment</class>
-
 	<severity>High</severity>
 
 	<impact>Vega has detected script code included in HTTPS website over insecure channels.</impact>
@@ -18,8 +16,7 @@
 	</discussion>
 
 	<references>
-        	<url address="http://en.wikipedia.org/wiki/HTTP_Secure">HTTPS (Wikipedia)</url>
+		<url address="http://en.wikipedia.org/wiki/HTTP_Secure">HTTPS (Wikipedia)</url>
+		<url address="http://projects.webappsec.org/Insufficient-Transport-Layer-Protection">WASC-04: Insufficient Transport Layer Protection (WASC)</url>
 	</references>
-
 </alert>
-

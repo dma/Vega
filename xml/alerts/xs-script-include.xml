@@ -1,14 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <alert>
-<title>Cross-Site Script Include</title>
-	
+	<title>Cross-Site Script Include</title>
 	<class>Environment</class>
-
 	<severity>High</severity>
 
 	<impact>Vega has detected that script code is being included from an unrelated domain.</impact>
 	<impact>This gives the operator of the server where the code originates control over the DOM, and the web application .</impact>
-        <impact>Even if the source is trusted, there are implications if the website hosting the script code is ever compromised. </impact>
+	<impact>Even if the source is trusted, there are implications if the website hosting the script code is ever compromised.</impact>
 
 	<remediation>
 		Servers should host their own Javascript, especially for critical applications.
@@ -21,6 +19,4 @@
 	<references>
 		<url address="http://www.subgraph.com/kb/websecurity/https">Wikipedia: Same-Origin Policy</url>
 	</references>
-
 </alert>
-

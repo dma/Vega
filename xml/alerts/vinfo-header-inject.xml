@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <alert>
-<title>Possible HTTP Header Injection</title>
-	
+	<title>Possible HTTP Header Injection</title>
 	<class>Input Validation Error</class>
 	<severity>Medium</severity>
 
@@ -12,14 +11,16 @@
 	<remediation>If a safe function is not found, the externally supplied data used in header fields must have newlines sanitized before inclusion in the response header.</remediation>
 
 	<discussion>
-	HTTP Header injection vulnerabilities can occur when an application or server uses externally supplied input to construct the headers in the HTTP response. This can be a vulnerability in environments where multiple hosts are accessing HTTP servers through a proxy. Forged HTTP responses can be used to poison proxy caches.
+		HTTP Header injection vulnerabilities can occur when an application or server uses externally supplied input to construct the headers in the HTTP response. This can be a vulnerability in environments where multiple hosts are accessing HTTP servers through a proxy. Forged HTTP responses can be used to poison proxy caches.
 	</discussion>
 
 	<references>
 		<url address="http://en.wikipedia.org/wiki/HTTP_header_injection">HTTP Header Injection (Wikipedia)</url>
 		<url address="https://www.owasp.org/index.php/HTTP_Response_Splitting">HTTP Response Splitting</url>
 		<url address="https://www.owasp.org/index.php/HTTP_Request_Smuggling">HTTP Request Smuggling</url>
+		<url address="http://projects.webappsec.org/HTTP-Request-Splitting">WASC-24: HTTP Request Splitting (WASC)</url>
+		<url address="http://projects.webappsec.org/HTTP-Response-Splitting">WASC-25: HTTP Response Splitting (WASC)</url>
+		<url address="http://projects.webappsec.org/HTTP-Request-Smuggling">WASC-26: HTTP Request Smuggling (WASC)</url>
+		<url address="http://projects.webappsec.org/HTTP-Response-Smuggling">WASC-27: HTTP Response Smuggling (WASC)</url>
 	</references>
-
 </alert>
-

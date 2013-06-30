@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <alert>
 	<title>Possible Remote File Include</title>
-	
 	<class>Input Validation Error</class>
 	<severity>High</severity>
 
@@ -10,12 +9,11 @@
 	<remediation>The developer should investigate the page and the parameter to manually verify that a path traversal vulnerability exists.</remediation>
 
 	<discussion>
-	Remote File Include.
+		Remote File Include.
 	</discussion>
 
 	<references>
 		<url address="http://en.wikipedia.org/wiki/Remote_file_inclusion">Remote File Inclusion (Wikipedia)</url>
+		<url address="http://projects.webappsec.org/Remote-File-Inclusion">WASC-05: Remote File Inclusion (WASC)</url>
 	</references>
-
 </alert>
-

@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <alert>
 	<title>Possible Directory Traversal</title>
-	
 	<class>Access Validation Error</class>
 	<severity>High</severity>
 
@@ -18,14 +17,13 @@
 	<remediation>Additional protection against unauthorized access to filesystem resources can be obtained by using chroot() or similar mechanisms to limit filesystem access to the web application and http server process, although this can be difficult to manage.</remediation>
 
 	<discussion>
-	Directory traversal, also known as "path traversal", is a type of vulnerability that occurs when externally-supplied input is used to construct the path to some filesystem resource that is later accessed by the web application. The vulnerability is manifested when malicious users embed path parts such as "../" (on UNIX systems) to refer to resources relative to a parent directory. 
+		Directory traversal, also known as "path traversal", is a type of vulnerability that occurs when externally-supplied input is used to construct the path to some filesystem resource that is later accessed by the web application. The vulnerability is manifested when malicious users embed path parts such as "../" (on UNIX systems) to refer to resources relative to a parent directory.
 	</discussion>
 
 	<references>
 		<url address="http://en.wikipedia.org/wiki/Directory_traversal">Directory Traversal (Wikipedia)</url>
 		<url address="https://www.owasp.org/index.php/Path_Traversal">Path Traversal (OWASP)</url>
 		<url address="https://www.owasp.org/index.php/File_System#Path_traversal">Avoiding Path Traversal (OWASP)</url>
+		<url address="http://projects.webappsec.org/Path-Traversal">WASC-33: Path Traversal (WASC)</url>
 	</references>
-
 </alert>
-
