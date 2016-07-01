@@ -1,0 +1,41 @@
+#!/usr/bin/env php
+<?php
+
+if (PHP_SAPI !== 'cli') {
+    die;
+}
+
+if ($argc !== 2) {
+    echo 'Usage: ' . $argv[0] . " FILE\n";
+    exit(1);
+}
+
+$xmlFile = $argv[1];
+$xsdFile = __DIR__ . DIRECTORY_SEPARATOR . 'vega.xsd';
+
+libxml_use_internal_errors(true);
+
+$xml = new DOMDocument();
+$xml->load($xmlFile);
+
+if (!$xml->schemaValidate($xsdFile)) {
+    $errors = libxml_get_errors();
+    foreach ($errors as $error) {
+        echo "$xmlFile:" . $error->line;
+
+        switch ($error->level) {
+            case LIBXML_ERR_WARNING:
+                echo " W ";
+                break;
+            case LIBXML_ERR_ERROR:
+                echo " E ";
+                break;
+            case LIBXML_ERR_FATAL:
+                echo " F ";
+                break;
+        }
+
+        echo trim($error->message) . "\n";
+    }
+    exit(1);
+}
